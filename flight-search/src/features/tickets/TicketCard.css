@@ -1,0 +1,39 @@
+.ticket-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+  
+  .ticket-left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticket-right {
+    text-align: right;
+  }
+  
+  .ticket-card {
+    border: 1px solid #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    color:black
+  }
+  
+  .ticket-card strong {
+    font-size: 1.2rem;
+  }
+  
+  .ticket-card div {
+    margin: 0.25rem 0;
+  }
